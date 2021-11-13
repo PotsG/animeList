@@ -1,5 +1,5 @@
 import './App.css';
-import AnimeList from './components/animeList.jsx';
+import AnimeList from './components/animeList';
 import './index.css';
 
 const App = () => {
