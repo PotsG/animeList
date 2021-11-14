@@ -1,9 +1,13 @@
 import './App.css';
-import AnimeList from './components/animeList';
+import AnimeRender from './components/animeRender';
 import './index.css';
 
 const App = () => {
-	return <AnimeList />;
+	return (
+		<main className='container m-auto'>
+			<AnimeRender />
+		</main>
+	);
 };
 
 export default App;
