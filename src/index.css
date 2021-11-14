@@ -23,4 +23,31 @@
 	.img-full {
 		@apply object-cover object-top w-full h-full;
 	}
+
+	.pagination {
+		@apply flex max-w-7xl m-auto mt-8;
+	}
+
+	.pagination-item {
+		@apply relative flex;
+	}
+
+	.pagination-link,
+	.pagination-prev,
+	.pagination-next {
+		@apply flex flex-1 px-4 py-2 text-gray-700 bg-gray-200 rounded-md hover:bg-blue-400 hover:text-white;
+	}
+
+	.pagination-prev,
+	.pagination-next {
+		@apply font-bold text-gray-500 bg-gray-300;
+	}
+
+	.pagination-link-active {
+		@apply bg-blue-400 text-white;
+	}
+
+	.pagination-disabled {
+		@apply grayscale-0 cursor-not-allowed hover:select-none text-gray-500 bg-gray-200 hover:bg-gray-200 hover:text-gray-500;
+	}
 }
